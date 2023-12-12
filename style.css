@@ -1,0 +1,35 @@
+body {
+    font-family: 'Roboto';
+}
+.nav{
+    background-color: rgb(71, 70, 70);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.nav-links{
+    display: flex;
+    list-style: none;
+    gap: 15px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+ul li a:hover {
+    color: rgb(175, 170, 170);
+}
+button{
+    background-color: rgb(44, 186, 186);
+    color: white;
+    border: none;
+    cursor: pointer;
+    box-shadow: 5px 4px 2px rgb(7, 7, 7);
+}
+button:hover{
+    background-color: rgb(29, 224, 224);
+}
